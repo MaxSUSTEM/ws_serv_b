@@ -3,8 +3,8 @@
 import time
 import tqdm
 
-configuration_number = "0xBFDA890A"
-version = "0.0.7"
+configuration_number = "1xWSAD980A"
+version = "0.0.8"
 
 print("Service package 2: ver. {}".format(version))
 time.sleep(0.5)
@@ -19,8 +19,8 @@ time.sleep(0.5)
 print("Service package 2: stage 2")
 time.sleep(1.5)
 print("Service package 2: configuration package 1 found")
-for i in tqdm.tqdm(range(5000), ascii=True, desc="Setup in progress"):
-    time.sleep(0.002)
+for i in tqdm.tqdm(range(10000), ascii=True, desc="Setup in progress"):
+    time.sleep(0.001)
 print("Service package 2: stage 2 finished")
 time.sleep(0.5)
 print("Service package 2: successfully configured!")
