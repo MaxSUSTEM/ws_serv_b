@@ -3,8 +3,8 @@
 import time
 import tqdm
 
-configuration_number = "1xWSAD980A"
-version = "0.0.8"
+configuration_number = "5015"
+version = "1.1.0"
 
 print("Service package 2: ver. {}".format(version))
 time.sleep(0.5)
@@ -12,7 +12,7 @@ print("Service package 2: start configuration ")
 time.sleep(0.5)
 print("Service package 2: stage 1")
 time.sleep(0.5)
-for i in tqdm.tqdm(range(1000), ascii=True, desc="Finding dependencies"):
+for i in tqdm.tqdm(range(7500), ascii=True, desc="Finding dependencies"):
     time.sleep(0.01)
 print("Service package 2: stage 1 finished")
 time.sleep(0.5)
